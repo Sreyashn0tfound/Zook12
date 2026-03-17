@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* Setting your theme colors so the hero code works */
+@theme {
+  --color-background: #09091a;
+  --color-foreground: #ffffff;
+  --color-card: #111122;
+  --color-border: #1e1e3a;
+  --color-primary: #00e5ff;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  margin: 0;
+  font-family: sans-serif;
+}
